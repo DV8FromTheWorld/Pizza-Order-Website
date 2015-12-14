@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS ResidenceHall
+(
+    hallId INT(4) AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(35) NOT NULL,
+    address VARCHAR(50) NOT NULL
+);
+

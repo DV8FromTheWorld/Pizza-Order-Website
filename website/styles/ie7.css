@@ -1,0 +1,27 @@
+/* CSS */
+/* IE 7 Hacks */
+/* Version 2.0 */		
+
+#banner { height:84px;}
+#logo { margin:21px 0 17px; height:45px; }
+#logo a { margin:0; height: 20px; }
+#logo h1 { margin:0; padding:0; height:22px; }
+#logo h2 { margin:0; padding:0; height:18px; }
+#utilnav { top:23px; }
+#banner #search { top:20px;}
+
+/* Comment out next two lines for 5 or 7 top nav links */
+#sitenav ul li a { width:17%; }
+#sitenav ul li a.none { width:14.5%; }
+
+/*Fixes TT left search*/
+#leftcol #search { margin-top:10px;}
+#leftcol #search h2 { padding-bottom: 5px; margin-bottom:10px; }
+
+#content { margin-top:10px; }
+
+#maintext { margin-top:0px; }
+
+.box h1 { padding: 1px 0 1px 10px; margin:0; position:relative; }
+
+#maintext .threecol { margin: 10px 1%; padding:0; width:28%; }

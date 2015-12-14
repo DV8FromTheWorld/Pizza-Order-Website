@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS Worker
+(
+    workerId INT(4) AUTO_INCREMENT PRIMARY KEY,
+    nameFirst VARCHAR(35) NOT NULL,
+    nameLast VARCHAR(35) NOT NULL,
+    hours INT(2) NOT NULL,
+    hireDate DATE NOT NULL
+);
+

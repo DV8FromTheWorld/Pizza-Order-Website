@@ -1,0 +1,40 @@
+/* CSS Document */
+/* Print Sheet */
+/* Version 2.0 */
+
+@media print {
+
+body { background:none; }
+
+#lift_tt,
+#banner #search,
+#leftcol #search,
+#utilnav,
+#sectnav,
+#sitenav,
+#styler,
+#header,
+#footnav { display:none; }
+
+div.wrapper { margin: 0; width: 780px; }
+
+#logo { background:none; height:auto; width:100%; }
+#logo a { text-indent:0; font-family:"Times New Roman", Times, serif; color:#444 }
+#logo h2 { font-weight:normal; }
+
+#siteinfo { background-color: #fff; background-image:none;  }
+#siteinfo p,
+#siteinfo p a { color:#555; }
+#siteinfo #crumbs { background-color: #fff; background-image:none; position:relative; left:0px; }
+
+#content { width:auto; }
+#maintext ul,
+#maintext ol,
+#maintext dl,
+#footer { page-break-inside: avoid; }
+
+#footer { page-break-inside: avoid; }
+#footer { height:auto; }
+#footer .logo { margin-top:0; padding:2px 4px 0 0; }
+
+}

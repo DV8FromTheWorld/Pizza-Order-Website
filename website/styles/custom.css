@@ -1,0 +1,54 @@
+/* Custom CSS */
+/* Summer Bridge Website */
+/* Version 1.0 */
+/* Author: Seth Hobson */
+
+#pics {
+	margin: 15px; 
+	padding: 0;
+	float: left;
+}
+
+#pics img {
+	display: inline;
+	margin: 5px;
+  	height: auto;
+  	width: auto;
+  	text-align: center;
+	-moz-box-shadow: 0 0 2px 2px #888;
+	-webkit-box-shadow: 0 0 2px 2px #888;
+	box-shadow: 0 0 2px 2px #888;
+}
+
+#quotes blockquote > *:first-child { text-indent: -14px; }
+
+#quotes blockquote > *:first-child:before {
+    background: url(../images/open-quote.gif) no-repeat 100% 30%;
+    content: "\00A0";
+    padding: 2em;
+    padding-left: 0;
+}
+
+#quotes blockquote > *:last-child:after {
+    background: url(../images/close-quote.gif) no-repeat 10% 70%;
+    content: "\00A0";
+    padding: 2em;
+}
+
+#quotes * html blockquote * { text-indent: -6px; } /* fix for IE6 */
+
+#quotes h4 { text-indent: 80px; }
+
+#alumni p {
+	text-indent: 20px;
+}
+
+.frontpic {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#maintext .bulleted {
+	list-style-type: disc;
+}

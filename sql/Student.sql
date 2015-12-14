@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS Student
+(
+    bannerId CHAR(9) NOT NULL PRIMARY KEY,
+    firstName VARCHAR(35) NOT NULL,
+    lastName VARCHAR(35) NOT NULL,
+    email VARCHAR(50) DEFAULT NULL,
+    phoneNumber VARCHAR(10) NOT NULL
+);
+

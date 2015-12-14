@@ -1,0 +1,38 @@
+Welcome to the Appalachian Pizzeria Database. This database is designed to
+create order requests for people wanting pizza from The Pizzeria in the 
+Roess Dining Hall. The following is a manual on how to use the website that
+is connected to the database.
+--------------------------------------------
+
+--------------------------------------------
+1)Get on the internet and go to student.cs.appstate.edu/classes/3430/151/team2/
+2)You will see a webpage titled "The Pizzeria Order Form". Below the title you
+  see the button "Click to add an item!". Click that button to tack on another
+  item to your order.
+3)A window will pop up. From this window you can create a new item to add to
+  your order. Click the button "Select your item" and select an item from the
+  following dropbox. Once your specific item is selected click the button
+  "Add item" in the bottom right corner. If you wish to cancel, click the
+  button "Cancel" right next to the button "Add item".
+4)Once the specific item is added to your order, you will be able to see the 
+  item on the main page underneath the button "Click to add an item!". From
+  there you can change the size and quantity of your item. You can also delete
+  the item by clicking the X at the end of the item line.
+5)Continue to add items with the "Click to add an item!" button until you are 
+  satisfied with your order. Once you are satisfed, click the "Finalize Order"
+  button. You can also click the "Cancel Order" button to cancel the entire
+  order.
+6)Once the button "Finalize Order" is clicked, a window will pop up asking for
+  your:
+        *First Name
+        *Last Name
+        *BannerID
+        *Email(@appstate.edu)
+        *Phone number 
+  If your order is a delivery, check the checkbox located underneath the phone
+  number textbox. If the delivery checkbox is checked, specify which hall you
+  wish the order to be delivered to. **ALL TEXTBOXES MUST BE FILLED**
+7)Once you have filled in the information, click the "Complete Purchase" button
+  and your order request will be fulfilled. **YOU MUST REFRESH THE PAGE TO MAKE
+  ANOTHER ORDER. AN ORDER CANNOT BE MADE ON A BANNERID THAT ALREADY HAS AN 
+  ACTIVE ORDER.**                       

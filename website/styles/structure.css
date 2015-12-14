@@ -1,0 +1,132 @@
+/* CSS */
+/* Main Setup of Sheet */
+/* Version 2.0 */		
+
+html,
+body { padding: 0; margin: 0; }
+img { border: 0; }
+hr { display:none; }
+
+/* Hidden navigation skips for ADA compliance */
+.hidden { position: absolute; left: -10000px; }
+
+/* General container for top tier */
+div.wrapper { margin: 0 auto; padding: 0; text-align:left; position:relative; min-width: 780px; max-width: 950px; }
+
+/* ASU Logo & Icons*/
+#banner { width: 100%; height:75px; }
+
+#logo { margin:9px 0 0; height:70px; width:604px; }
+#logo a { display:block; overflow:hidden; }
+#logo h1 { margin:0; padding:10px 0 5px; height:22px; }
+#logo h2 { margin:0; padding:4px 0; height:18px;}
+
+#utilnav { position:absolute; right:0; top:13px; width:400px; height:50px; }
+#utilnav ul { margin: 0; padding: 0; }
+#utilnav ul li { float:right; margin:0; padding:0; }
+#utilnav ul li a { overflow:visible; display:block; padding:29px 10px 0; }
+#utilnav ul li a#appalnet, #utilnav ul li a#az, #utilnav ul li a#calendar, #utilnav ul li a#maps { background-position: center top; }
+
+/* Top-Tier navigation */
+#sitenav { width:100%; }
+#sitenav ul { height: 2.7em; margin: 0; padding: 0; }
+#sitenav ul li { margin:0; padding:0; display:inline; }
+/* Left navigation only bar height */
+#sitenav.gray { height:2px; position:relative; }
+
+/* Uncomment next two lines for 5 top nav links - change hacks.css */
+/*#sitenav ul li a { float:left; height: 2.7em; width:20%; }
+#sitenav ul li a.none { width:20%; }*/
+
+/* Comment out next 2 lines for 5 or 7 links */
+#sitenav ul li a { float:left; height: 2.7em; width:17%; }
+#sitenav ul li a.none { width:15%; }
+
+/* Uncomment next two lines for 7 top nav links - be sure to change in hacks.css file */
+/*#sitenav ul li a { float:left; height: 2.7em; width:14%; }
+#sitenav ul li a.none { width:16%; }*/
+
+/* Yellow Bar & Breadcrumbs */ 
+#siteinfo { position: relative; height: 1.9em; border-top: 1px solid #fff; margin-bottom:10px; }
+#siteinfo p { margin:4px 0 0 2.3ex; }
+#siteinfo #sectnav { position: absolute; top:0; left:0; height: 1.9em; }
+#siteinfo #crumbs { position: absolute; top:0; right:0; height: 1.9em; }
+#siteinfo #crumbs p { margin-right: 10px; }
+#siteinfo #crumbs a { margin: 0; padding: 0 1.5ex 0 1ex; }
+
+/* Left Column */
+#leftcol { float:left; width: 210px; margin: 0 0 2em 5px; }
+/* Secondary (left) navigation */
+#subnav ul { margin: 0 0 35px; padding: 0; }
+#subnav ul li a { display: block; padding: 3px 5px 3px 21px; margin: 2px 0; }
+/* Dropdown Links */
+#subnav ul ul { margin:0 0 10px; padding:0; }
+#subnav ul ul li { margin:0; padding:0;  }
+#subnav ul ul li a { padding: 0 5px 0 21px; margin: 8px 0; }
+
+/* Quicklinks (left) navigation */
+.quick { margin: 6px 0 19px 0; padding:0; }
+.quick h2 { padding: 6px 5px; margin:0; }
+.quick ul  { margin: 0; padding: 5px; }
+/*.quick ul li { padding: .2em 5px .3em 15px; }*/
+.quick ul li p { padding: 0; margin:0; }
+.quick p { padding: 6px 5px 5px; margin:0; }
+
+/* ASU Search boxes */
+#leftcol #search { margin: 0 0 25px; width:210px;}
+#leftcol #search h2 { padding-bottom: 5px; }
+#leftcol #search p { margin: 2px 0 10px; }
+#leftcol #search form { margin:0 5px; padding:0; display:block; }
+#leftcol #search label#q_lbl { display:none; }
+#leftcol #search .txtbox { width:170px; vertical-align:top; margin: 0 0 2px; }
+
+/* Top Search Box */
+#banner #search { position:absolute; right:11px; top:2px; width:300px; height:40px; }
+#banner #search label { display:none; }
+#banner #search form { margin:0; padding:0; }
+#banner #search a { margin-left:5px; }
+#banner #search .txtbox { width:150px; vertical-align:top; margin-bottom:4px; padding:0; }
+#banner #search .buttons { margin-right: 3px; }
+
+/* content wrapper */
+#content { position: relative; margin: 0 10px 5px 240px; }
+
+/* Cutout Box, page header, quote */
+#header { height: 200px; margin:0 0 6px; padding:0; }
+
+.box { margin-top:4px; padding:0; }
+.box h1 { padding: 1px 0 1px 10px; margin:0; }
+
+/* Main Text Setup */
+#maintext { margin: 15px; padding:0; }
+#maintext h2 { margin:20px 0 0;  }
+#maintext h3 { margin: 20px 0 0; }
+#maintext h4 { margin: 0; }
+#maintext p  { padding: 0; }
+#maintext .imageunit { width:100%; min-height:150px; margin:0; padding: .5em 0; clear:both; }
+#maintext .imageunit p { padding:0; margin:0 0 0 520px; }
+/* for 2 Column layout */
+#maintext .leftcol { float: left; width: 47%; margin-top:15px; padding: 0; }
+#maintext .rightcol { float: right; width: 47%; margin-top:15px; padding:0; }
+ /* for 3 Columns */
+#maintext .threecol { float:left; margin: 0 2% 10px; padding: 0; width:29%; }
+
+/* General List setup */
+#maintext ol, #maintext ul { margin:0; padding: 0 0 0 20px; }
+#maintext li { margin: .4em 15px .7em 0; padding:0;  }
+#maintext ol li a, #maintext ul li a { padding-bottom: 1px; }
+
+#maintext dl { margin-left: 10px; }
+#maintext dt { margin-top:.4em; }
+#maintext dd { line-height:135%; margin:0; padding: .3em 0; }
+
+/* Footer*/
+#footer { margin: 25px 0 15px; padding-top:.3em; clear:both; }
+#footer .logo { float:right; margin-top:-2em; padding:2px 4px 0 0; }
+#footnav, #footer address { padding: .2em 0 0; margin:0; }
+
+/* Use to clear floats instead of inline class*/
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+/* Hides from IE-mac \*/
+* html .clearfix { height: 1% }
+/* End hide from IE-mac */

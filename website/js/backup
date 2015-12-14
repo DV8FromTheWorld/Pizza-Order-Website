@@ -1,0 +1,11 @@
+    try {
+      if (submitType.length > 1) {
+      document.getElementById("order-summary").innerHTML += '<div class="orderItem">' + submitType[0] + '<i class="rmX glyphicon glyphicon-remove"></i></div>';    
+      }
+    }
+    catch (err) {
+      if (document.getElementById("specLinksChosen")) {
+	document.getElementById("order-summary").innerHTML += '<div class="orderItem">Derp<i class="rmX glyphicon glyphicon-remove"></i></div>';
+	alert(err.message);
+      }
+      else {
